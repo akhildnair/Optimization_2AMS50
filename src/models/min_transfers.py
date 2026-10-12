@@ -53,7 +53,7 @@ def solve_min_transfers(
             if e_id in line.edges
         ]
         min_f, max_f = effective_frequency_bounds(
-            edge, ptn.loads.get(e_id)
+             ptn.loads.get(e_id)
         )
 
         if covering:
